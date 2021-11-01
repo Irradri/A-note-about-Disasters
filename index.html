@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+        html{
+            font-size: 25px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+		::selection{
+            background-color: #00ff0088;
+            color: #000;
+        }
+        body{
+            background-image: url('https://www.brookings.edu/wp-content/uploads/2016/06/wildfire001.jpg'),url('https://www.verywellmind.com/thmb/Z4z_ULxQUwOmqxXUgJzwLGt1BD0=/2668x2001/smart/filters:no_upscale()/GettyImages-169527067-56d2549d3df78cfb37cdb862.jpg'),url('https://i.natgeofe.com/n/0f9e3b7a-d3ca-4418-8e61-f605b4e04bc5/02-rikuzentakata-japan_16x9.jpg');
+            background-color: #fffe;
+            background-size: cover;
+            background-position: center center;
+            min-height: 100%;
+            font-family: 'Source Serif Pro', serif;
+            background-blend-mode: soft-light;
+            background-attachment: fixed;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+        .d-spec{
+            box-shadow: #008800 5px 5px 5px;
+        }
+        .d-spec:hover{
+            animation: smoosh 1s;
+            box-shadow: #008800 5px 5px 15px;
+        }
+        @keyframes smoosh{
+            from{box-shadow: #008800 5px 5px 5px;}
+            to{box-shadow: #008800 5px 5px 15px;}
+        }
+        .e-spec{
+            box-shadow: #880000 5px 5px 5px;
+        }
+        .e-spec:hover{
+            animation: smooth 1s;
+            box-shadow: #880000 5px 5px 15px;
+        }
+        @keyframes smooth{
+            from{box-shadow: #880000 5px 5px 5px;}
+            to{box-shadow: #880000 5px 5px 15px;}
+        }
+	</style>
+    <title>Disaster management</title>
+</head>
+<body>
+    <header class="text-center mb-5">
+        <div class="container">
+            <h1 class="display-2">A Disaster</h1>
+            <p>Basically, A disaster is a serious problem occurring over a short or long period of time that causes widespread human, material, economic or environmental destruction which exceeds the ability of the affected community or society to cope using its own resources.The severity of a disaster depends on the affected population's resilience and on the infrastructure available.</p>
+            <br><p>Disasters are broadly classified into two types:</p>
+        </div>
+    </header>
+    <div class="row text-center">
+        <div class="col-sm-6" style="border-width: 0 1px 0 0;border-style: solid;border-color: #000;">
+            <h1>Natural Disasters</h1>
+            <p>A natural disaster is a disaster resulting from natural processes of the Earth; examples include firestorms, duststorms, floods, hurricanes, tornadoes, volcanic eruptions, earthquakes, tsunamis, storms, and other geologic processes.</p>
+            <br><br><br>
+            <div class="text-left mx-auto" style="width: fit-content;">
+                Some popular natural disasters are:
+                <!--Floods-->                    
+                    <div class="modal fade" id="flood" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Floods</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://i.gifer.com/PVg2.gif" alt="" class="w-100">
+                                    <p>A flood is an overflow of water that submerges land.Flooding may occur as an overflow of water from water bodies, such as a river, lake, or ocean, in which the water overtops or breaks levees, resulting in some of that water escaping its usual boundaries, or it may occur due to an accumulation of rainwater on saturated ground in an areal flood.</p>
+                                    <h2>Effects:</h2>
+                                    <p>The primary effects of flooding include loss of life and damage to buildings and other structures, including bridges, sewerage systems, roadways, and canals.This includes loss of drinking water treatment and water supply, which may result in loss of drinking water or severe water contamination.</p>
+                                    <h2>Prevention:</h2>
+                                    <p><ul>
+                                        <li>In the United States, the National Weather Service recommends that people get out of the area of a flood, rather than trying to cross it.</li>
+                                        <li>Observation of previous and present flood heights and inundated areas</li>
+                                        <li>Statistical, hydrologic, and hydraulic model analyses</li>
+                                    </ul></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Earthquakes-->                    
+                    <div class="modal fade" id="earthquake" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Earthquakes</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://c.tenor.com/kllJSJ5xGzEAAAAd/earthquake.gif" alt="" class="w-100">
+                                    <p>An earthquake is the shaking of the surface of the Earth resulting from a sudden release of energy in the Earth's lithosphere that creates seismic waves. Earthquakes can range in size from those that are so weak that they cannot be felt to those violent enough to propel objects and people into the air, and wreak destruction across entire cities.These are mainly caused due to collision of tectonic plates but can also have other causes like volcanic eruptions and nuclear explosions</p>
+                                    <h2>Effects:</h2>
+                                    <p>Shaking and ground rupture are the main effects created by earthquakes, principally resulting in more or less severe damage to buildings and other rigid structures.In the more severe cases,they cause buildings to collapse, trapping people into concrete</p>
+                                    <h2>Prevention:</h2>
+                                    <p><ul>
+                                        <li>Earthquake prediction is a branch of the science of seismology concerned with the specification of the time, location, and magnitude of future earthquakes within stated limits.Despite considerable research efforts by seismologists, scientifically reproducible predictions cannot yet be made to a specific day or month.</li>
+                                        <li>The objective of earthquake engineering is to design buildings and other structures to minimize the risk of damage. Existing structures can be modified by seismic retrofitting to improve their resistance to earthquakes.</li>
+                                        <li>Earthquake insurance can provide building owners with financial protection against losses resulting from earthquakes.</li>
+                                        <li>Individuals can take steps like moving to an open ground away from buildings or taking shelter under a bed or table</li>
+                                    </ul></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Volcanic eruptions-->                    
+                    <div class="modal fade" id="volcano" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Volcanic eruptions</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://media2.giphy.com/media/wJqcBmCtGy8ik/200.gif" alt="" class="w-100">
+                                    <p>A volcano is a rupture in the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.On Earth, volcanoes are most often found where tectonic plates are diverging or converging, and most are found underwater. For example, a mid-ocean ridge, such as the Mid-Atlantic Ridge, has volcanoes caused by divergent tectonic plates whereas the Pacific Ring of Fire has volcanoes caused by convergent tectonic plates. Volcanoes can also form where there is stretching and thinning of the crust's plates, such as in the East African Rift and the Wells Gray-Clearwater volcanic field and Rio Grande Rift in North America.</p>
+                                    <h2>Effects:</h2>
+                                    <p>Volcanic activities can pose a considerable hazard to humans. Earthquakes, hot springs, fumaroles, mud pots and geysers often accompany volcanic activity.Volcanic gases can reach the stratosphere, where they form sulfuric acid aerosols that can reflect solar radiation and lower surface temperatures significantly.Chemical reactions of sulfate aerosols in the stratosphere can also damage the ozone layer, and acids such as hydrogen chloride (HCl) and hydrogen fluoride (HF) can fall to the ground as acid rain.</p>
+                                    <h2>Prevention:</h2>
+                                    <p>There is no method or requirement of prevention of volcanoes, as cities and homes are situated away from valcanoes and thus, are not prone to devastation.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Cyclones and storms-->                    
+                    <div class="modal fade" id="cyclone" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Cyclones</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://i.gifer.com/BJvi.gif" alt="" class="w-100">
+                                    <p> Cyclones are characterized by high-speed inward-spiraling winds that rotate about a zone of low pressure.They are formed when a reigon of low-pressure is surrounded by high-pressure, causing air to spirally move inwards.</p>
+                                    <h2>Effects:</h2>
+                                    <p>Tropical cyclones trigger serious rainfall and landslides. They cause serious damage to towns and villages. Also, they destroy coastal companies, such as shipyards and oil well. When these hurricanes blow far inland, human settlements undergo a lot of devastation.</p>
+                                    <h2>Prevention:</h2>
+                                    <p><ul>
+                                        <li>Avoidance of sewage lines, gutters, drains, or culverts.</li>
+                                        <li>Staying away from electric poles or fallen power lines in order to avoid electrocution.</li>
+                                        <li>Consuption of freshly cooked or dry food which has been covered.</li>
+                                    </ul></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light d-spec p-2" data-target="#flood">Floods</button>
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light d-spec p-2" data-target="#earthquake">Earthquakes</button>
+                </div>
+                <div class="row">
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light d-spec p-2" data-target="#volcano">Volcanic eruptions</button>
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light d-spec p-2" data-target="#cyclone">Cyclones</button>
+                </div>
+        </div>
+        <div class="col-sm-6">
+            <h1>Human-made Disasters</h1>
+            <p>Human-made disasters or Anthropogenic hazards are the consequence of technological or human activities. Examples include war, social unrest, forest fires, transport accidents, industrial accidents, oil spills, nuclear explosions/nuclear radiation.</p>
+            <br><br><br>
+            <div class="text-left mx-auto" style="width: fit-content;">
+                Some popular human-made disasters are:
+                    <!--War-->
+                    <div class="modal fade" id="war" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">War</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://thevideoink.com/wp-content/uploads/2018/05/apps.5746.14491956307573728.ee00f3e3-85b7-456e-b17b-bccafd3f5f92-1000x600.jpg" alt="" class="w-100">
+                                    <p>War is an intense armed conflict between states, governments, societies, or paramilitary groups such as mercenaries, insurgents, and militias. It is generally characterized by extreme violence, aggression, destruction, and mortality, using regular or irregular military forces.</p>
+                                    <h2>Effects:</h2>
+                                    <p>War causes immense human death and loss of property. It also leads to economic loss and environmental degradation.</p>
+                                    <h2>Prevention:</h2>
+                                    <p>Political peace between nations, harmony between diverse social, religeous and cultural groups of people has been the main asset which can prevent war in the future.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fires-->
+                    <div class="modal fade" id="fire" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Forest Fires</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg" alt="" class="w-100">
+                                    <p>Forest fires are unplanned, unwanted, uncontrolled fires in an area of combustible vegetation. They are mainly caused as a consequence of global warming but can also be caused by war and volcanic erruptions.</p>
+                                    <h2>Effects:</h2>
+                                    <p>Forest fires spread and consume vegetation cover, leading to mass deforestaion and air pollution.</p>
+                                    <h2>Prevention:</h2>
+                                    <p><ul>
+                                        <li>One common and inexpensive technique to reduce the risk of uncontrolled wildfires is controlled burning: intentionally igniting smaller less-intense fires to minimize the amount of flammable material available for a potential wildfire.</li>
+                                        <li>Steps and measures to prevent global-warming can also help prevent forest fires</li>
+                                    </ul></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Oil spills-->
+                    <div class="modal fade" id="oil" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Oil spills</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://www.offshore-technology.com/wp-content/uploads/sites/6/2018/05/12685861633_cf5c25abc8_b-e1525191470518.jpg" alt="" class="w-100">
+                                    <p>An oil spill is the release of a liquid petroleum hydrocarbon into the environment, especially the marine ecosystem, due to human activity, and is a form of pollution.Oil spills may be due to releases of crude oil from tankers, offshore platforms, drilling rigs and wells, as well as spills of refined petroleum products (such as gasoline, diesel) and their by-products, heavier fuels used by large ships such as bunker fuel, or the spill of any oily refuse or waste oil.</p>
+                                    <h2>Effects:</h2>
+                                    <p>Spilled oil can affect animals and plants in two ways: dirесt from the oil or from the cleanup process.Oil penetrates into the structure of the plumage of birds and the fur of mammals, reducing their insulating ability, and making them more vulnerable to temperature fluctuations and much less buoyant in the water.Animals who rely on scent to find their babies or mothers cannot due to the strong scent of the oil.</p>
+                                    <h2>Prevention:</h2>
+                                    <p><ul>
+                                        <li>Double-hulling – build double hulls into vessels, which reduces the risk and severity of a spill in case of a collision or grounding. Existing single-hull vessels can also be rebuilt to have a double hull.</li>
+                                        <li>Thick-hulled railroad transport tanks.</li>
+                                        <li>A listing of appropriate protective clothing, safety equipment, and cleanup materials required for spill cleanup (gloves, respirators, etc.)</li>
+                                    </ul></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Nuclear explosions-->
+                    <div class="modal fade" id="nuclear" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Nuclear explosions</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://media.istockphoto.com/photos/nuclear-bomb-explosion-mushroom-cloud-picture-id955124060?k=20&m=955124060&s=612x612&w=0&h=DnXtpQP5JNtVhX8NcNq01S0YYvqHgUGDsaw8F6QoLpQ=" alt="" class="w-100">
+                                    <p>A nuclear explosion is an explosion that occurs as a result of the rapid release of energy from a high-speed nuclear reaction.</p>
+                                    <h2>Effects:</h2>
+                                    <p>The dominant effect of a nuclear weapon (the blast and thermal radiation) are the same physical damage mechanisms as conventional explosives, but the energy produced by a nuclear explosive is millions of times more per gram and the temperatures reached are in the tens of megakelvin.The devastating impact of the explosion does not stop after the initial blast, as with conventional explosives. A cloud of nuclear radiation travels from the hypocenter of the explosion, causing an impact to life forms even after the heat waves have ceased. The main health effect of nuclear fallout is cancer and birth defects because radiation causes changes in cells that can either kill or make them abnormal.</p>
+                                    <h2>Prevention:</h2>
+                                    <p>[same as that of war]</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light e-spec p-2" data-target="#war">War</button>
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light e-spec p-2" data-target="#fire">Forest Fires</button>
+                </div>
+                <div class="row">
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light e-spec p-2" data-target="#oil">Oil spills</button>
+                    <button data-toggle="modal" class="col-sm m-2 btn btn-light e-spec p-2" data-target="#nuclear">Nuclear explosions</button>
+                </div>
+        </div>
+    </div>
+    <div class="container text-center" style="margin-bottom: 100px;">
+        <h1>Disaster management</h1>
+        <p>Disaster management is how we deal with the human, material, economic or environmental impacts of said disaster, it is the process of how we “prepare for, respond to and learn from the effects of major failures”. It involves detailed study of disasters, their causes and execution of preventive measures which are based on these studies.Some preventive measures of the disasters mentioned above have been specified accordingly. Along with major steps taken by government, awareness about these disasters is also necessary. The sole purpose of this page is to create such awareness within the reader.</p>
+    </div>
+    <footer class="text-light bg-dark p-3 text-center">
+        ～made by Irradri Basu Khaund
+    </footer>
+</body>
+</html>
